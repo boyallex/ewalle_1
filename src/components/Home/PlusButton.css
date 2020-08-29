@@ -1,0 +1,13 @@
+.plus_button {
+    width: 48px;
+    height: 48px;
+
+    background: #FFAC30;
+    border: none;
+    border-radius: 25px;
+}
+
+img {
+    /*margin-left: -2.2px;*/
+    margin-top: 3px;
+}
