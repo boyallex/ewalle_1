@@ -1,11 +1,16 @@
 import React from "react";
-import "../../../css/Writing.css"
+import "./Writing.scss"
 
 const Writing = (props) => {
     return (
-        <p className="head">
-            {props.text}
-        </p>
+        <div className="writing">
+            <p className="writing__text">
+                {props.text}
+            </p>
+            <button className="writing__btn">
+                <img src={props.button} alt=""/>
+            </button>
+        </div>
     )
 };
 

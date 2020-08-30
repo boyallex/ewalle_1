@@ -5,11 +5,10 @@
   background-color: #F1F3F6;
 
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
 
   width: 325px;
   height: 116px;
-
 }
 
 .cur_balance {
@@ -18,4 +17,9 @@
   letter-spacing: 0.06em;
 
   color: #3A4276;
+}
+
+.plus {
+  margin-top: 34px;
+  margin-right: 25px;
 }

@@ -1,7 +1,23 @@
-.head {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 25px;
+.writing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
-  color: #3A4276;
+  max-height: 25px;
+  margin-bottom: 20px;
+
+  &__text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: #3A4276;
+  }
+
+  &__btn {
+    background-color: white;
+    border: none;
+  }
 }
+

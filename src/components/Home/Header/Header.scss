@@ -1,4 +1,44 @@
 .header {
   display: flex;
   justify-content: space-between;
+  max-height: 112px;
+
+    &__menu {
+      background-color: white;
+      border: none;
+
+      width: 19px;
+      height: 19px;
+
+      margin-top: 35px;
+      margin-right: -50px;
+  }
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  &__img {
+    margin-right: 10px;
+    margin-top: 31px;
+  }
+
+  &__button {
+    width: 90px;
+    height: 32px;
+
+    font-family: Ubuntu, serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+
+    color: #1B1D28;
+    margin-top: 30px;
+  }
+}
+
+.link {
+  text-decoration: none;
+  text-decoration-color: none;
 }
