@@ -4,6 +4,7 @@ import Second from "../../../pictures/Home/People2.png";
 import Third from "../../../pictures/Home/People3.png";
 import People from "./People";
 import "./PeopleList.scss";
+import PlusButton from "../PlusButton";
 
 const state = [
     [First, "Mike"],
@@ -13,11 +14,14 @@ const state = [
 
 const PeopleList = () => {
 
-    const PeopleHTML = state.map( p => (<People ava={p[0]} name={p[1]}/>))
+    const PeopleHTML = state.map(p => (<People ava={p[0]} name={p[1]}/>))
 
     return (
         <div className="list">
-            { PeopleHTML }
+            <div className="plus">
+                <PlusButton/>
+            </div>
+            {PeopleHTML}
         </div>
     );
 };

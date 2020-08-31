@@ -1,4 +1,10 @@
 .list {
   display: flex;
 
+  overflow: auto;
+  padding-left: 25px;
+}
+
+.plus {
+  margin-right: 20px;
 }

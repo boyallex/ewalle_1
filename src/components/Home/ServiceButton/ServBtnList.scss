@@ -1,0 +1,12 @@
+.buttons {
+  display: grid;
+
+  grid-template-columns: 88px 88px 88px 88px;
+  grid-template-rows: 130px 96px 96px;
+
+  max-height: 220px;
+  max-width: 324px;
+
+  padding-left: 25px;
+  padding-right: 26px;
+}

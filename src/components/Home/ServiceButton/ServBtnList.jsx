@@ -25,7 +25,7 @@ const Service = () => {
     ]
 
     const btnListHTML = btnList.map(b => (<ServiceButton img={b[0]} text={b[1]}/>));
-    return (<div>{btnListHTML}</div>);
+    return (<div className="buttons">{btnListHTML}</div>);
 };
 
 export default Service;

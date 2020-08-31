@@ -3,7 +3,7 @@ import "./ServiceButton.scss";
 
 const ServiceButton = (props) => {
     return (
-        <div>
+        <div className="service">
             <button className="serviceBtn">
                 <img src={props.img} alt=""/>
             </button>
